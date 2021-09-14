@@ -82,7 +82,7 @@ def printBestBooks(books):
 
 
 def printSortResults(ord_books, sample=10):
-    size = lt.size(ird_books)
+    size = lt.size(ord_books)
     if size>sample:
         print("Los primeros", sample, "libros ordenados son:")
         i = 1
